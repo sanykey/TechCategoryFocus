@@ -1,0 +1,74 @@
+namespace = stcf_add_modifier
+
+#################
+# engineering
+#################
+country_event = {
+	id = stcf_add_modifier.1
+	inline_script = { script = stcf_add_modifier CATEGORY = materials AREA = engineering }
+}
+
+country_event = {
+	id = stcf_add_modifier.2
+	inline_script = { script = stcf_add_modifier CATEGORY = propulsion AREA = engineering }
+}
+
+country_event = {
+	id = stcf_add_modifier.3
+	inline_script = { script = stcf_add_modifier CATEGORY = voidcraft AREA = engineering }
+}
+
+country_event = {
+	id = stcf_add_modifier.4
+	inline_script = { script = stcf_add_modifier CATEGORY = industry AREA = engineering }
+}
+
+#################
+# physics
+#################
+country_event = {
+	id = stcf_add_modifier.5
+	inline_script = { script = stcf_add_modifier CATEGORY = field_manipulation AREA = physics }
+}
+
+country_event = {
+	id = stcf_add_modifier.6
+	inline_script = { script = stcf_add_modifier CATEGORY = particles AREA = physics }
+}
+
+country_event = {
+	id = stcf_add_modifier.7
+	inline_script = { script = stcf_add_modifier CATEGORY = computing AREA = physics }
+}
+#################
+# society
+#################
+country_event = {
+	id = stcf_add_modifier.8
+	inline_script = { script = stcf_add_modifier CATEGORY = new_worlds AREA = society }
+}
+
+country_event = {
+	id = stcf_add_modifier.9
+	inline_script = { script = stcf_add_modifier CATEGORY = statecraft AREA = society }
+}
+
+country_event = {
+	id = stcf_add_modifier.10
+	inline_script = { script = stcf_add_modifier CATEGORY = biology AREA = society }
+}
+
+country_event = {
+	id = stcf_add_modifier.11
+	inline_script = { script = stcf_add_modifier CATEGORY = military_theory AREA = society }
+}
+
+country_event = {
+	id = stcf_add_modifier.12
+	inline_script = { script = stcf_add_modifier CATEGORY = archaeostudies AREA = society }
+}
+
+country_event = {
+	id = stcf_add_modifier.13
+	inline_script = { script = stcf_add_modifier CATEGORY = psionics AREA = society }
+}

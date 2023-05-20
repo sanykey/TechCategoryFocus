@@ -1,0 +1,4 @@
+remove_modifier = stcf_materials_focus_modifier
+remove_modifier = stcf_propulsion_focus_modifier
+remove_modifier = stcf_voidcraft_focus_modifier
+remove_modifier = stcf_industry_focus_modifier

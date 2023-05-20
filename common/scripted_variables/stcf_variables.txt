@@ -1,0 +1,2 @@
+@stcf_draw_chance_mult = 0.33
+@stcf_rare_draw_chance_mult = 0.1

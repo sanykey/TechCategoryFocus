@@ -1,0 +1,73 @@
+#############
+# engineering
+#############
+stcf_materials_focus_modifier = {
+	category_materials_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_materials.dds"
+}
+
+stcf_propulsion_focus_modifier = {
+	category_propulsion_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_propulsion.dds"
+}
+
+stcf_voidcraft_focus_modifier = {
+	category_voidcraft_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_voidcraft.dds"
+}
+
+stcf_industry_focus_modifier = {
+	category_industry_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_industry.dds"
+}
+
+#############
+# phisics
+#############
+stcf_field_manipulation_focus_modifier = {
+	category_field_manipulation_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_field_manipulation.dds"
+}
+
+stcf_particles_focus_modifier = {
+	category_particles_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_particles.dds"
+}
+
+stcf_computing_focus_modifier = {
+	category_computing_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_computing.dds"
+}
+
+#############
+# social
+#############
+stcf_new_worlds_focus_modifier = {
+	category_new_worlds_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_new_worlds.dds"
+}
+
+stcf_statecraft_focus_modifier = {
+	category_statecraft_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_statecraft.dds"
+}
+
+stcf_biology_focus_modifier = {
+	category_biology_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_biology.dds"
+}
+
+stcf_military_theory_focus_modifier = {
+	category_military_theory_draw_chance_mult = @stcf_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_military_theory.dds"
+}
+
+stcf_archaeostudies_focus_modifier = {
+	category_archaeostudies_draw_chance_mult = @stcf_rare_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_archaeostudies.dds"
+}
+
+stcf_psionics_focus_modifier = {
+	category_psionics_draw_chance_mult = @stcf_rare_draw_chance_mult
+	icon = "gfx/interface/icons/technologies/categories/category_psionics.dds"
+}

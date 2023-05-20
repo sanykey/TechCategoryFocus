@@ -1,0 +1,3 @@
+remove_modifier = stcf_field_manipulation_focus_modifier
+remove_modifier = stcf_particles_focus_modifier
+remove_modifier = stcf_computing_focus_modifier

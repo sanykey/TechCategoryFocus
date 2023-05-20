@@ -1,0 +1,12 @@
+is_triggered_only = yes
+hide_window = yes
+
+immediate = {hidden_effect = {
+	root = {
+		inline_script = stcf_remove_$AREA$
+
+		add_modifier = {
+			modifier = stcf_$CATEGORY$_focus_modifier
+		}
+	}
+}}

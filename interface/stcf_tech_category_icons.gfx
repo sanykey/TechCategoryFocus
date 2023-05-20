@@ -1,0 +1,56 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_category_materials"
+		texturefile = "gfx/interface/icons/technologies/categories/category_materials.dds"
+	}
+	spriteType = {
+		name = "GFX_category_propulsion"
+		texturefile = "gfx/interface/icons/technologies/categories/category_propulsion.dds"
+	}
+	spriteType = {
+		name = "GFX_category_voidcraft"
+		texturefile = "gfx/interface/icons/technologies/categories/category_voidcraft.dds"
+	}
+	spriteType = {
+		name = "GFX_category_industry"
+		texturefile = "gfx/interface/icons/technologies/categories/category_materials.dds"
+	}
+
+	spriteType = {
+		name = "GFX_category_field_manipulation"
+		texturefile = "gfx/interface/icons/technologies/categories/category_field_manipulation.dds"
+	}
+	spriteType = {
+		name = "GFX_category_particles"
+		texturefile = "gfx/interface/icons/technologies/categories/category_particles.dds"
+	}
+	spriteType = {
+		name = "GFX_category_computing"
+		texturefile = "gfx/interface/icons/technologies/categories/category_computing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_category_new_worlds"
+		texturefile = "gfx/interface/icons/technologies/categories/category_new_worlds.dds"
+	}
+	spriteType = {
+		name = "GFX_category_statecraft"
+		texturefile = "gfx/interface/icons/technologies/categories/category_statecraft.dds"
+	}
+	spriteType = {
+		name = "GFX_category_biology"
+		texturefile = "gfx/interface/icons/technologies/categories/category_biology.dds"
+	}
+	spriteType = {
+		name = "GFX_category_military_theory"
+		texturefile = "gfx/interface/icons/technologies/categories/category_military_theory.dds"
+	}
+	spriteType = {
+		name = "GFX_category_archaeostudies"
+		texturefile = "gfx/interface/icons/technologies/categories/category_archaeostudies.dds"
+	}
+	spriteType = {
+		name = "GFX_category_psionics"
+		texturefile = "gfx/interface/icons/technologies/categories/category_psionics.dds"
+	}
+}

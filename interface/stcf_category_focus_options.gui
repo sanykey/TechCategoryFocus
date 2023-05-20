@@ -1,0 +1,295 @@
+@stcf_ui_option_container_size = 1
+@stcf_ui_option_size_x = 30
+@stcf_ui_option_size_y = 30
+
+
+@stcf_ui_option_1_pos_x = 0
+@stcf_ui_option_1_pos_y = 0
+
+@stcf_ui_option_2_pos_x = 35
+@stcf_ui_option_2_pos_y = -1
+
+@stcf_ui_option_3_pos_x = 70
+@stcf_ui_option_3_pos_y = -2
+
+@stcf_ui_option_4_pos_x = 105
+@stcf_ui_option_4_pos_y = -3
+
+# line2
+@stcf_ui_option_5_pos_x = 0
+@stcf_ui_option_5_pos_y = 31 # line2: 35 -4
+
+@stcf_ui_option_6_pos_x = 35
+@stcf_ui_option_6_pos_y = 30 # line2: 35 -5
+
+@stcf_ui_option_7_pos_x = 70
+@stcf_ui_option_7_pos_y = 29 # line2: 35 -6
+
+# line3
+@stcf_ui_option_8_pos_x = 0
+@stcf_ui_option_8_pos_y = 63 # line3: 70 -7
+
+@stcf_ui_option_9_pos_x = 35
+@stcf_ui_option_9_pos_y = 62 # line3: 70 -8
+
+@stcf_ui_option_10_pos_x = 70
+@stcf_ui_option_10_pos_y = 61 # line3: 70 -9
+
+@stcf_ui_option_11_pos_x = 105
+@stcf_ui_option_11_pos_y = 60 # line3: 70 -10
+
+@stcf_ui_option_12_pos_x = 140
+@stcf_ui_option_12_pos_y = 59 # line3: 70 -11
+
+@stcf_ui_option_13_pos_x = 175
+@stcf_ui_option_13_pos_y = 58 # line3: 70 -12
+
+guiTypes = {
+	containerWindowType = {
+		name = "stcf_ui_focus_materials"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite =  "GFX_button_29_animated"
+			spriteType = "GFX_category_materials"
+			position = { x = @stcf_ui_option_1_pos_x y = @stcf_ui_option_1_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+            font = "cg_16b"
+            text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_propulsion"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_propulsion"
+			position = { x = @stcf_ui_option_2_pos_x y = @stcf_ui_option_2_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_voidcraft"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_voidcraft"
+			position = { x = @stcf_ui_option_3_pos_x y = @stcf_ui_option_3_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_industry"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_industry"
+			position = { x = @stcf_ui_option_4_pos_x y = @stcf_ui_option_4_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_field_manipulation"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_field_manipulation"
+			position = { x = @stcf_ui_option_5_pos_x y = @stcf_ui_option_5_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_particles"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_particles"
+			position = { x = @stcf_ui_option_6_pos_x y = @stcf_ui_option_6_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_computing"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_computing"
+			position = { x = @stcf_ui_option_7_pos_x y = @stcf_ui_option_7_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_new_worlds"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_new_worlds"
+			position = { x = @stcf_ui_option_8_pos_x y = @stcf_ui_option_8_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_statecraft"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_statecraft"
+			position = { x = @stcf_ui_option_9_pos_x y = @stcf_ui_option_9_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_biology"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_biology"
+			position = { x = @stcf_ui_option_10_pos_x y = @stcf_ui_option_10_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_military_theory"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_military_theory"
+			position = { x = @stcf_ui_option_11_pos_x y = @stcf_ui_option_11_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_archaeostudies"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_archaeostudies"
+			position = { x = @stcf_ui_option_12_pos_x y = @stcf_ui_option_12_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "stcf_ui_focus_psionics"
+		position = { x=0 y=0 }
+		size = { width = @stcf_ui_option_container_size height = @stcf_ui_option_container_size }
+		moveable = no
+	
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_category_psionics"
+			position = { x = @stcf_ui_option_13_pos_x y = @stcf_ui_option_13_pos_y }
+			size = { x = @stcf_ui_option_size_x y = @stcf_ui_option_size_y }
+			# font = "cg_16b"
+			# text = "OPTION_TEXT"
+			oversound = "mouse_over"
+			clicksound = confirm_click
+			format = CENTER
+		}
+	}
+}

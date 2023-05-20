@@ -1,0 +1,6 @@
+remove_modifier = stcf_new_worlds_focus_modifier
+remove_modifier = stcf_statecraft_focus_modifier
+remove_modifier = stcf_biology_focus_modifier
+remove_modifier = stcf_military_theory_focus_modifier
+remove_modifier = stcf_archaeostudies_focus_modifier
+remove_modifier = stcf_psionics_focus_modifier
