@@ -2,7 +2,7 @@ version="1.0.0"
 tags={
 	"Technologies"
 }
-name="Tech Category Focus 3.8.2"
+name="Tech Category Focus"
 picture="thumbnail.png"
-supported_version="3.8.2"
+supported_version="3.8.*"
 remote_file_id="2981450111"
