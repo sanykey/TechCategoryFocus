@@ -1,3 +1,3 @@
 *Tech Category Focus* mod for Stellaris
 
-[Steam Workshop::Tech Category Focus](https://steamcommunity.com/sharedfiles/filedetails/?id=)
+[Steam Workshop::Tech Category Focus](https://steamcommunity.com/sharedfiles/filedetails/?id=2981450111)
