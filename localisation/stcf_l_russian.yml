@@ -1,28 +1,28 @@
 ﻿l_russian:
  # engineering:
- stcf_engineering_select:0 "Select a focus in engineering technologies"
- stcf_engineering_none:0 "Don't focus in engineering technologies"
- stcf_materials_focus_modifier:0 "Focus on materials technologies"
- stcf_propulsion_focus_modifier:0 "Focus on propulsion technologies"
- stcf_voidcraft_focus_modifier:0 "Focus on voidcraft technologies"
- stcf_industry_focus_modifier:0 "Focus on industry technologies"
+ stcf_engineering_select:0 "Выбор специализации в области инженерных технологий"
+ stcf_engineering_none:0 "Без специализации в области инженерных технологий"
+ stcf_materials_focus_modifier:0 "Фокус на технологиях материалов"
+ stcf_propulsion_focus_modifier:0 "Фокус на технологиях реактивной тяги"
+ stcf_voidcraft_focus_modifier:0 "Фокус на технологиях приручения пустоты"
+ stcf_industry_focus_modifier:0 "Фокус на технологиях промышленности"
 
  # phisics:
- stcf_phisics_select:0 "Select a focus in phisics technologies"
- stcf_phisics_none:0 "Don't focus in phisics technologies"
- stcf_field_manipulation_focus_modifier:0 "Focus on field manipulation technologies"
- stcf_particles_focus_modifier:0 "Focus on particles technologies"
- stcf_computing_focus_modifier:0 "Focus on computing technologies"
+ stcf_physics_select:0 "Выбор специализации в области физических технологий"
+ stcf_physics_none:0 "Без специализации в области физических технологий"
+ stcf_field_manipulation_focus_modifier:0 "Фокус на технологиях управления полями"
+ stcf_particles_focus_modifier:0 "Фокус на технологиях частиц"
+ stcf_computing_focus_modifier:0 "Фокус на технологиях вычислительной техники"
 
  # society:
- stcf_phisics_select:0 "Select a focus in society technologies"
- stcf_society_none:0 "Don't focus in society technologies"
- stcf_new_worlds_focus_modifier:0 "Focus on new worlds technologies"
- stcf_statecraft_focus_modifier:0 "Focus on statecraft technologies"
- stcf_biology_focus_modifier:0 "Focus on biology technologies"
- stcf_military_theory_focus_modifier:0 "Focus on military theory technologies"
- stcf_archaeostudies_focus_modifier:0 "Focus on archaeostudies technologies"
- stcf_psionics_focus_modifier:0 "Focus on psionics technologies"
+ stcf_society_select:0 "Выбор специализации в области социальных технологий"
+ stcf_society_none:0 "Без специализации в области социальных технологий"
+ stcf_new_worlds_focus_modifier:0 "Фокус на технологиях новых миров"
+ stcf_statecraft_focus_modifier:0 "Фокус на технологиях искусства управления"
+ stcf_biology_focus_modifier:0 "Фокус на технологиях биологии"
+ stcf_military_theory_focus_modifier:0 "Фокус на технологиях военной теории"
+ stcf_archaeostudies_focus_modifier:0 "Фокус на технологиях археоисследований"
+ stcf_psionics_focus_modifier:0 "Фокус на псионических технологиях"
 
  # other
  stcf_empty_text:0 ""
