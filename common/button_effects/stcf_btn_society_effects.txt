@@ -1,0 +1,155 @@
+stcf_society_none_btn_effect = {
+	allow = {
+		OR = {
+			has_modifier = stcf_new_worlds_focus_modifier
+			has_modifier = stcf_statecraft_focus_modifier
+			has_modifier = stcf_biology_focus_modifier
+			has_modifier = stcf_military_theory_focus_modifier
+			has_modifier = stcf_archaeostudies_focus_modifier
+			has_modifier = stcf_psionics_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_society_none
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.16 }
+		}
+	}
+}
+
+stcf_new_worlds_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_new_worlds_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_new_worlds_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.8 }
+		}
+	}
+}
+
+stcf_statecraft_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_statecraft_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_statecraft_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.9 }
+		}
+	}
+}
+
+stcf_biology_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_biology_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_biology_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.10 }
+		}
+}
+}
+
+stcf_military_theory_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_military_theory_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_military_theory_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.11 }
+		}
+	}
+}
+
+stcf_archaeostudies_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_archaeostudies_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_archaeostudies_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.12 }
+		}
+	}
+}
+
+stcf_psionics_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_psionics_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_psionics_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.13 }
+		}
+	}
+}
+
+# icons
+
+stcf_society_none_icon_btn_effect = {
+	potential = {
+		NOT = {
+			OR = {
+				has_modifier = stcf_new_worlds_focus_modifier
+				has_modifier = stcf_statecraft_focus_modifier
+				has_modifier = stcf_biology_focus_modifier
+				has_modifier = stcf_military_theory_focus_modifier
+				has_modifier = stcf_archaeostudies_focus_modifier
+				has_modifier = stcf_psionics_focus_modifier
+			}
+		}
+	}
+}
+
+stcf_new_worlds_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_new_worlds_focus_modifier
+	}
+}
+
+stcf_statecraft_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_statecraft_focus_modifier
+	}
+}
+
+stcf_biology_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_biology_focus_modifier
+	}
+}
+
+stcf_military_theory_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_military_theory_focus_modifier
+	}
+}
+
+stcf_archaeostudies_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_archaeostudies_focus_modifier
+	}
+}
+
+stcf_psionics_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_psionics_focus_modifier
+	}
+}

@@ -1,0 +1,90 @@
+stcf_physics_none_btn_effect = {
+	allow = {
+		OR = {
+			has_modifier = stcf_field_manipulation_focus_modifier
+			has_modifier = stcf_particles_focus_modifier
+			has_modifier = stcf_computing_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_physics_none
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.15 }
+		}
+	}
+}
+
+stcf_field_manipulation_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_field_manipulation_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_field_manipulation_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.5 }
+		}
+	}
+}
+
+stcf_particles_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_particles_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_particles_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.6 }
+		}
+	}
+}
+
+stcf_computing_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_computing_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_computing_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.7 }
+		}
+	}
+}
+
+
+# icons:
+
+stcf_physics_none_icon_btn_effect = {
+	potential = {
+		NOT = {
+			OR = {
+				has_modifier = stcf_field_manipulation_focus_modifier
+				has_modifier = stcf_particles_focus_modifier
+				has_modifier = stcf_computing_focus_modifier
+			}
+		}
+	}
+}
+
+stcf_field_manipulation_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_field_manipulation_focus_modifier
+	}
+}
+
+stcf_particles_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_particles_focus_modifier
+	}
+}
+
+stcf_computing_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_computing_focus_modifier
+	}
+}

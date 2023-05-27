@@ -26,19 +26,224 @@ guiTypes = {
 			}
 		}
 
+		# stcf buttons START
+		# physics:
 		effectbuttonType = {
-			name = "focus_research2"
-			# quadTextureSprite = "GFX_diplomacy_opinion"
-			position = { x = 397 y = 24 }
+			name = "stcf_focus_physics_tech"
+			quadTextureSprite = "GFX_category_materials"
+			position = { x = 333 y = 24 }
 			size = { x = 29 y = 29 }
-			# orientation = "LOWER_RIGHT"
-			text = "nan"
-			effect = stcf_btn_switch_focus_effect
+			effect = stcf_btn_open_focus_physics
 			oversound = "no_sound"
 			clicksound = "select_click"
 			spriteType = "GFX_button_29_animated"
 			font = "malgun_goth_24"
 		}
+		effectbuttonType = {
+			name = "stcf_physics_none_icon"
+			quadTextureSprite = "GFX_stcf_physics"
+			position = { x = 346 y = 38 }
+			scale = 1.5
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_physics_none_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "no_sound"
+		}
+		effectbuttonType = {
+			name = "stcf_field_manipulation_icon"
+			quadTextureSprite = "GFX_stcf_field_manipulation"
+			position = { x = 346 y = 38 }
+			scale = 0.9
+			size = { x = 29 y = 29 }
+			alwaysTransparent = yes
+			effect = stcf_field_manipulation_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "no_sound"
+		}
+		effectbuttonType = {
+			name = "stcf_particles_icon"
+			quadTextureSprite = "GFX_stcf_particles"
+			position = { x = 346 y = 38 }
+			scale = 0.9
+			size = { x = 29 y = 29 }
+			alwaysTransparent = yes
+			effect = stcf_particles_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "no_sound"
+		}
+		effectbuttonType = {
+			name = "stcf_computing_icon"
+			quadTextureSprite = "GFX_stcf_computing"
+			position = { x = 346 y = 38 }
+			scale = 0.9
+			size = { x = 29 y = 29 }
+			alwaysTransparent = yes
+			effect = stcf_computing_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "no_sound"
+		}
+		# society:
+		effectbuttonType = {
+			name = "stcf_focus_society_tech"
+			quadTextureSprite = "GFX_stcf_society"
+			position = { x = 365 y = 24 }
+			size = { x = 29 y = 29 }
+			effect = stcf_btn_open_focus_society
+			oversound = "no_sound"
+			clicksound = "select_click"
+			spriteType = "GFX_button_29_animated"
+			font = "malgun_goth_24"
+		}
+		effectbuttonType = {
+			name = "stcf_society_none_icon"
+			quadTextureSprite = "GFX_stcf_society"
+			scale = 1.5
+			alwaysTransparent = yes
+			position = { x = 378 y = 38 }
+			size = { x = 29 y = 29 }
+			effect = stcf_society_none_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_new_worlds_icon"
+			quadTextureSprite = "GFX_stcf_new_worlds"
+			scale = 0.9
+			position = { x = 378 y = 38 }
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_new_worlds_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_statecraft_icon"
+			quadTextureSprite = "GFX_stcf_statecraft"
+			scale = 0.9
+			position = { x = 378 y = 38 }
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_statecraft_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_biology_icon"
+			quadTextureSprite = "GFX_stcf_biology"
+			scale = 0.9
+			position = { x = 378 y = 38 }
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_biology_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_military_theory_icon"
+			quadTextureSprite = "GFX_stcf_military_theory"
+			scale = 0.9
+			position = { x = 378 y = 38 }
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_military_theory_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_archaeostudies_icon"
+			quadTextureSprite = "GFX_stcf_archaeostudies"
+			scale = 0.9
+			position = { x = 378 y = 38 }
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_archaeostudies_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_psionics_icon"
+			quadTextureSprite = "GFX_stcf_psionics"
+			scale = 0.9
+			position = { x = 378 y = 38 }
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_psionics_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+
+
+		# engineering:
+		effectbuttonType = {
+			name = "stcf_focus_engineering_tech"
+			quadTextureSprite = "GFX_stcf_engineering"
+			position = { x = 397 y = 24 }
+			size = { x = 29 y = 29 }
+			effect = stcf_btn_open_focus_engineering
+			oversound = "no_sound"
+			clicksound = "select_click"
+			spriteType = "GFX_button_29_animated"
+			font = "malgun_goth_24"
+		}
+		#engineering icons:
+		effectbuttonType = {
+			name = "stcf_engineering_none_icon"
+			quadTextureSprite = "GFX_stcf_engineering"
+			scale = 1.5
+			position = { x = 410 y = 38 }
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_engineering_none_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_materials_icon"
+			quadTextureSprite = "GFX_stcf_materials"
+			position = { x = 410 y = 38 }
+			scale = 0.9
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_materials_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_propulsion_icon"
+			quadTextureSprite = "GFX_stcf_propulsion"
+			position = { x = 410 y = 38 }
+			scale = 0.9
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_propulsion_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_voidcraft_icon"
+			quadTextureSprite = "GFX_stcf_voidcraft"
+			position = { x = 410 y = 38 }
+			scale = 0.9
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_voidcraft_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_industry_icon"
+			quadTextureSprite = "GFX_stcf_industry"
+			position = { x = 410 y = 38 }
+			scale = 0.9
+			alwaysTransparent = yes
+			size = { x = 29 y = 29 }
+			effect = stcf_industry_icon_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		# stcf buttons END
+
 		
 		iconType = {
 			name = "hex_bg"

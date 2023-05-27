@@ -1,115 +1,28 @@
 namespace = stcf_ui
 
-# test
 country_event = {
     id = stcf_ui.1
-    title = stcf_empty_text
+    title = stcf_physics_select
 	desc = stcf_empty_text
     is_triggered_only = yes
     diplomatic = yes
-    custom_gui = "stcf_tech_categories_list_window"
+    custom_gui = "stcf_focus_physics_tech"
+}
 
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_materials"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.1 }
-        }
-	}
+country_event = {
+    id = stcf_ui.2
+    title = stcf_society_select
+	desc = stcf_empty_text
+    is_triggered_only = yes
+    diplomatic = yes
+    custom_gui = "stcf_focus_society_tech"
+}
 
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_propulsion"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.2 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_voidcraft"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.3 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_industry"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.4 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_field_manipulation"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.5 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_particles"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.6 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_computing"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.7 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_new_worlds"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.8 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_statecraft"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.9 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_biology"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.10 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_military_theory"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.11 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_archaeostudies"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.12 }
-        }
-	}
-
-	option = {
-		name = stcf_empty_text
-        custom_gui = "stcf_ui_focus_psionics"
-        hidden_effect = {
-            country_event = { id = stcf_add_modifier.13 }
-        }
-	}
+country_event = {
+    id = stcf_ui.3
+    title = stcf_engineering_select
+	desc = stcf_empty_text
+    is_triggered_only = yes
+    diplomatic = yes
+    custom_gui = "stcf_focus_engineering_tech"
 }

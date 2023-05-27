@@ -1,0 +1,110 @@
+stcf_engineering_none_btn_effect = {
+	allow = {
+		OR = {
+			has_modifier = stcf_materials_focus_modifier
+			has_modifier = stcf_propulsion_focus_modifier
+			has_modifier = stcf_voidcraft_focus_modifier
+			has_modifier = stcf_industry_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_engineering_none
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.14 }
+		}
+	}
+}
+
+stcf_materials_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_materials_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_materials_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.1 }
+		}
+	}
+}
+
+stcf_propulsion_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_propulsion_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_propulsion_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.2 }
+		}
+	}
+}
+
+stcf_voidcraft_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_voidcraft_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_voidcraft_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.3 }
+		}
+	}
+}
+
+stcf_industry_btn_effect = {
+	allow = {
+		NOT = {
+			has_modifier = stcf_industry_focus_modifier
+		}
+	}
+	effect = {
+		custom_tooltip = stcf_industry_focus_modifier
+		hidden_effect = {
+			country_event = { id = stcf_add_modifier.4 }
+		}
+	}
+}
+
+# icons:
+stcf_engineering_none_icon_btn_effect = {
+	potential = {
+		NOT = {
+			OR = {
+				has_modifier = stcf_materials_focus_modifier
+				has_modifier = stcf_propulsion_focus_modifier
+				has_modifier = stcf_voidcraft_focus_modifier
+				has_modifier = stcf_industry_focus_modifier
+			}
+		}
+	}
+}
+
+stcf_materials_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_materials_focus_modifier
+	}
+}
+
+stcf_propulsion_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_propulsion_focus_modifier
+	}
+}
+
+stcf_voidcraft_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_voidcraft_focus_modifier
+	}
+}
+
+stcf_industry_icon_btn_effect = {
+	potential = {
+		has_modifier = stcf_industry_focus_modifier
+	}
+}

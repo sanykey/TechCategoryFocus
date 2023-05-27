@@ -1,9 +1,0 @@
-stcf_btn_switch_focus_effect = {
-	allow = {}
-	potential = {}
-	effect = {hidden_effect = {
-        owner = { 
-            country_event = { id = stcf_ui.1 }
-        }
-	}}
-}

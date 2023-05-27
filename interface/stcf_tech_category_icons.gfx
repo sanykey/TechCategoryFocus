@@ -1,56 +1,69 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_category_materials"
-		texturefile = "gfx/interface/icons/technologies/categories/category_materials.dds"
+		name = "GFX_stcf_physics"
+		textureFile = "gfx/interface/icons/resources/physics_research.dds"
 	}
 	spriteType = {
-		name = "GFX_category_propulsion"
-		texturefile = "gfx/interface/icons/technologies/categories/category_propulsion.dds"
+		name = "GFX_stcf_society"
+		textureFile = "gfx/interface/icons/resources/society_research.dds"
 	}
 	spriteType = {
-		name = "GFX_category_voidcraft"
-		texturefile = "gfx/interface/icons/technologies/categories/category_voidcraft.dds"
-	}
-	spriteType = {
-		name = "GFX_category_industry"
-		texturefile = "gfx/interface/icons/technologies/categories/category_materials.dds"
+		name = "GFX_stcf_engineering"
+		textureFile = "gfx/interface/icons/resources/engineering_research.dds"
 	}
 
 	spriteType = {
-		name = "GFX_category_field_manipulation"
+		name = "GFX_stcf_materials"
+		texturefile = "gfx/interface/icons/technologies/categories/category_materials.dds"
+	}
+	spriteType = {
+		name = "GFX_stcf_propulsion"
+		texturefile = "gfx/interface/icons/technologies/categories/category_propulsion.dds"
+	}
+	spriteType = {
+		name = "GFX_stcf_voidcraft"
+		texturefile = "gfx/interface/icons/technologies/categories/category_voidcraft.dds"
+	}
+	spriteType = {
+		name = "GFX_stcf_industry"
+		texturefile = "gfx/interface/icons/technologies/categories/category_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stcf_field_manipulation"
 		texturefile = "gfx/interface/icons/technologies/categories/category_field_manipulation.dds"
 	}
 	spriteType = {
-		name = "GFX_category_particles"
+		name = "GFX_stcf_particles"
 		texturefile = "gfx/interface/icons/technologies/categories/category_particles.dds"
 	}
 	spriteType = {
-		name = "GFX_category_computing"
+		name = "GFX_stcf_computing"
 		texturefile = "gfx/interface/icons/technologies/categories/category_computing.dds"
 	}
 
 	spriteType = {
-		name = "GFX_category_new_worlds"
+		name = "GFX_stcf_new_worlds"
 		texturefile = "gfx/interface/icons/technologies/categories/category_new_worlds.dds"
 	}
 	spriteType = {
-		name = "GFX_category_statecraft"
+		name = "GFX_stcf_statecraft"
 		texturefile = "gfx/interface/icons/technologies/categories/category_statecraft.dds"
 	}
 	spriteType = {
-		name = "GFX_category_biology"
+		name = "GFX_stcf_biology"
 		texturefile = "gfx/interface/icons/technologies/categories/category_biology.dds"
 	}
 	spriteType = {
-		name = "GFX_category_military_theory"
+		name = "GFX_stcf_military_theory"
 		texturefile = "gfx/interface/icons/technologies/categories/category_military_theory.dds"
 	}
 	spriteType = {
-		name = "GFX_category_archaeostudies"
+		name = "GFX_stcf_archaeostudies"
 		texturefile = "gfx/interface/icons/technologies/categories/category_archaeostudies.dds"
 	}
 	spriteType = {
-		name = "GFX_category_psionics"
+		name = "GFX_stcf_psionics"
 		texturefile = "gfx/interface/icons/technologies/categories/category_psionics.dds"
 	}
 }

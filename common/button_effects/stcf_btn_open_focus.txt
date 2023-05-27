@@ -1,0 +1,26 @@
+stcf_btn_open_focus_physics = {
+	effect = {
+		custom_tooltip = stcf_physics_select
+		hidden_effect = {
+            country_event = { id = stcf_ui.1 }
+		}
+	}
+}
+
+stcf_btn_open_focus_society = {
+	effect = {
+		custom_tooltip = stcf_society_select
+		hidden_effect = {
+            country_event = { id = stcf_ui.2 }
+		}
+	}
+}
+
+stcf_btn_open_focus_engineering = {
+	effect = {
+		custom_tooltip = stcf_engineering_select
+		hidden_effect = {
+            country_event = { id = stcf_ui.3 }
+		}
+	}
+}

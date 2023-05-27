@@ -1,68 +1,78 @@
+@stcf_y = 10
+
 guiTypes = {
 
 	### FACTION OVERVIEW GUI ###
 
 	containerWindowType = {
-		name = "stcf_tech_categories_list_window"
+		name = "stcf_focus_engineering_tech"
 		orientation = left_up
 		origo = left_up
 		moveable = no
-		size = { width = 220 height = 130 }
-		position = { x = 470 y = 70 }
+		size = { width = 215 height = 47 }
+		position = { x = 256 y = 62 }
 
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_tile_outliner_bg"
+			spriteType = "GFX_topbar_background"
 		}
 
 		effectbuttonType = {
-			name = "reset_focus"
-			quadTextureSprite = "GFX_button_update"
-			position = { x = 145 y = 12 }
+			name = "stcf_engineering_none"
+			quadTextureSprite = "GFX_stcf_engineering"
+			scale = 1.7
+			position = { x = 10 y = @stcf_y }
 			size = { x = 29 y = 29 }
-			# orientation = "LOWER_RIGHT"
-			# text = "nan"
-			# font = "malgun_goth_24"
-			effect = stcf_btn_switch_focus_effect
+			effect = stcf_engineering_none_btn_effect
 			oversound = "no_sound"
 			clicksound = "select_click"
-			# spriteType = "GFX_button_29_animated"
-			
+		}
+		effectbuttonType = {
+			name = "stcf_materials"
+			quadTextureSprite = "GFX_stcf_materials"
+			position = { x = 43 y = @stcf_y }
+			size = { x = 29 y = 29 }
+			effect = stcf_materials_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_propulsion"
+			quadTextureSprite = "GFX_stcf_propulsion"
+			position = { x = 76 y = @stcf_y }
+			size = { x = 29 y = 29 }
+			effect = stcf_propulsion_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_voidcraft"
+			quadTextureSprite = "GFX_stcf_voidcraft"
+			position = { x = 109 y = @stcf_y }
+			size = { x = 29 y = 29 }
+			effect = stcf_voidcraft_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
 		}
 
-		# iconType = {
-		# 	name = "hex_bg"
-		# 	spriteType = "GFX_hex_bg"
-		# 	position = { x = -10 y = -14 }
-		# 	alwaysTransparent = yes
-		# }
-		# iconType = {
-		# 	name = "empire_header_line"
-		# 	quadTextureSprite = "GFX_line_long"
-		# 	position = { x = 6 y = 22 }
-		# 	alwaysTransparent = yes
-		# }
+		effectbuttonType = {
+			name = "stcf_industry"
+			quadTextureSprite = "GFX_stcf_industry"
+			position = { x = 142 y = @stcf_y }
+			size = { x = 29 y = 29 }
+			effect = stcf_industry_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
 
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x= -42 y = 12 }
+			position = { x= -42 y = 5 }
 			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
 		}
-
-		# Custom header
-		# instantTextBoxType = {
-		# 	name = "irm_some_header"
-		# 	font = "malgun_goth_24"
-		# 	text = "ui_faction_header" 	# header text
-		# 	position = { x = 20 y = 5 }
-		# 	maxWidth = 543
-		# 	maxHeight = 22
-		# 	fixedSize = yes
-		# 	alwaysTransparent = yes
-		# }
 
 		### ALL OF THIS IS HIDDEN OR DISPLACED ! ###
 
@@ -138,7 +148,7 @@ guiTypes = {
 			listboxType = {
 				name = "option_list"
 				position = { x = 4 y = -33 }
-				size = { x = 500 y = 180 }
+				size = { x = -1500 y = -1180 }
 				autohide_scrollbar = yes
 			}
 		}

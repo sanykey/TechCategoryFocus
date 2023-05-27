@@ -4,6 +4,18 @@ namespace = stcf_add_modifier
 # engineering
 #################
 country_event = {
+	id = stcf_add_modifier.14
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {hidden_effect = {
+		root = {
+			inline_script = stcf_remove_engineering
+		}
+	}}
+}
+
+country_event = {
 	id = stcf_add_modifier.1
 	inline_script = { script = stcf_add_modifier CATEGORY = materials AREA = engineering }
 }
@@ -27,6 +39,18 @@ country_event = {
 # physics
 #################
 country_event = {
+	id = stcf_add_modifier.15
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {hidden_effect = {
+		root = {
+			inline_script = stcf_remove_physics
+		}
+	}}
+}
+
+country_event = {
 	id = stcf_add_modifier.5
 	inline_script = { script = stcf_add_modifier CATEGORY = field_manipulation AREA = physics }
 }
@@ -43,6 +67,18 @@ country_event = {
 #################
 # society
 #################
+country_event = {
+	id = stcf_add_modifier.16
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {hidden_effect = {
+		root = {
+			inline_script = stcf_remove_society
+		}
+	}}
+}
+
 country_event = {
 	id = stcf_add_modifier.8
 	inline_script = { script = stcf_add_modifier CATEGORY = new_worlds AREA = society }
