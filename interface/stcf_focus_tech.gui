@@ -18,7 +18,7 @@ guiTypes = {
 		# orientation = left_up
 		# origo = left_up
 		moveable = no
-		size = { width = 250a height = 120` }
+		size = { width = 250 height = 120` }
 		position = { x = 286 y = 62 }
 
 		background = {
