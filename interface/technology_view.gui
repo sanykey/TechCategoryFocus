@@ -26,7 +26,7 @@ guiTypes = {
 			}
 		}
 
-# stcf buttons START
+		# stcf buttons START
 		@stcf_main_tech_icon_y_pos = 94
 		@stcf_main_tech_icon_physics_x_pos = 400
 		@stcf_main_tech_icon_society_x_pos = 425
