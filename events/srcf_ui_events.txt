@@ -2,27 +2,13 @@ namespace = stcf_ui
 
 country_event = {
     id = stcf_ui.1
-    title = stcf_physics_select
+    title = stcf_empty_text
 	desc = stcf_empty_text
     is_triggered_only = yes
     diplomatic = yes
-    custom_gui = "stcf_focus_physics_tech"
-}
+    custom_gui = "stcf_focus_tech"
 
-country_event = {
-    id = stcf_ui.2
-    title = stcf_society_select
-	desc = stcf_empty_text
-    is_triggered_only = yes
-    diplomatic = yes
-    custom_gui = "stcf_focus_society_tech"
-}
-
-country_event = {
-    id = stcf_ui.3
-    title = stcf_engineering_select
-	desc = stcf_empty_text
-    is_triggered_only = yes
-    diplomatic = yes
-    custom_gui = "stcf_focus_engineering_tech"
+    option = {
+        name = stcf_empty_text
+    }
 }

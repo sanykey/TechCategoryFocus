@@ -1,88 +1,29 @@
-@stcf_y = 10
+@stcf_physics_tech_icon_y_pos = 10
+@stcf_society_tech_icon_y_pos = 43
+@stcf_engineering_tech_icon_y_pos = 76
+@stcf_none_tech_icon_x_pos = 10
+@stcf_tech_icon_x_pos_1 = 43
+@stcf_tech_icon_x_pos_2 = 76
+@stcf_tech_icon_x_pos_3 = 109
+@stcf_tech_icon_x_pos_4 = 142
+@stcf_tech_icon_x_pos_5 = 175
+@stcf_tech_icon_x_pos_6 = 208
 
 guiTypes = {
 
 	### FACTION OVERVIEW GUI ###
 
 	containerWindowType = {
-		name = "stcf_focus_society_tech"
-		orientation = left_up
-		origo = left_up
+		name = "stcf_focus_tech"
+		# orientation = left_up
+		# origo = left_up
 		moveable = no
-		size = { width = 282 height = 47 }
-		position = { x = 190 y = 62 }
+		size = { width = 250a height = 120` }
+		position = { x = 286 y = 62 }
 
 		background = {
 			name = "background"
 			spriteType = "GFX_topbar_background"
-		}
-
-		effectbuttonType = {
-			name = "stcf_society_none"
-			quadTextureSprite = "GFX_stcf_society"
-			scale = 1.7
-			position = { x = 10 y = @stcf_y }
-			size = { x = 29 y = 29 }
-			effect = stcf_society_none_btn_effect
-			oversound = "no_sound"
-			clicksound = "select_click"
-		}
-		effectbuttonType = {
-			name = "stcf_new_worlds"
-			quadTextureSprite = "GFX_stcf_new_worlds"
-			position = { x = 43 y = @stcf_y }
-			size = { x = 29 y = 29 }
-			effect = stcf_new_worlds_btn_effect
-			oversound = "no_sound"
-			clicksound = "select_click"
-		}
-		effectbuttonType = {
-			name = "stcf_statecraft"
-			quadTextureSprite = "GFX_stcf_statecraft"
-			position = { x = 76 y = @stcf_y }
-			size = { x = 29 y = 29 }
-			effect = stcf_statecraft_btn_effect
-			oversound = "no_sound"
-			clicksound = "select_click"
-		}
-		effectbuttonType = {
-			name = "stcf_biology"
-			quadTextureSprite = "GFX_stcf_biology"
-			position = { x = 109 y = @stcf_y }
-			size = { x = 29 y = 29 }
-			effect = stcf_biology_btn_effect
-			oversound = "no_sound"
-			clicksound = "select_click"
-		}
-
-		effectbuttonType = {
-			name = "stcf_military_theory"
-			quadTextureSprite = "GFX_stcf_military_theory"
-			position = { x = 142 y = @stcf_y }
-			size = { x = 29 y = 29 }
-			effect = stcf_military_theory_btn_effect
-			oversound = "no_sound"
-			clicksound = "select_click"
-		}
-
-		effectbuttonType = {
-			name = "stcf_archaeostudies"
-			quadTextureSprite = "GFX_stcf_archaeostudies"
-			position = { x = 175 y = @stcf_y }
-			size = { x = 29 y = 29 }
-			effect = stcf_archaeostudies_btn_effect
-			oversound = "no_sound"
-			clicksound = "select_click"
-		}
-
-		effectbuttonType = {
-			name = "stcf_psionics"
-			quadTextureSprite = "GFX_stcf_psionics"
-			position = { x = 208 y = @stcf_y }
-			size = { x = 29 y = 29 }
-			effect = stcf_psionics_btn_effect
-			oversound = "no_sound"
-			clicksound = "select_click"
 		}
 
 		buttonType = {
@@ -94,7 +35,165 @@ guiTypes = {
 			clicksound = "back_click"
 		}
 
+		# physics
+		effectbuttonType = {
+			name = "stcf_physics_none"
+			quadTextureSprite = "GFX_stcf_physics"
+			scale = 1.7
+			position = { x = @stcf_none_tech_icon_x_pos y = @stcf_physics_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_physics_none_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_field_manipulation"
+			quadTextureSprite = "GFX_stcf_field_manipulation"
+			position = { x = @stcf_tech_icon_x_pos_1 y = @stcf_physics_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_field_manipulation_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_particles"
+			quadTextureSprite = "GFX_stcf_particles"
+			position = { x = @stcf_tech_icon_x_pos_2 y = @stcf_physics_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_particles_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_computing"
+			quadTextureSprite = "GFX_stcf_computing"
+			position = { x = @stcf_tech_icon_x_pos_3 y = @stcf_physics_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_computing_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+
+
+		# society
+		effectbuttonType = {
+			name = "stcf_society_none"
+			quadTextureSprite = "GFX_stcf_society"
+			scale = 1.7
+			position = { x = @stcf_none_tech_icon_x_pos y = @stcf_society_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_society_none_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_new_worlds"
+			quadTextureSprite = "GFX_stcf_new_worlds"
+			position = { x = @stcf_tech_icon_x_pos_1 y = @stcf_society_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_new_worlds_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_statecraft"
+			quadTextureSprite = "GFX_stcf_statecraft"
+			position = { x = @stcf_tech_icon_x_pos_2 y = @stcf_society_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_statecraft_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_biology"
+			quadTextureSprite = "GFX_stcf_biology"
+			position = { x = @stcf_tech_icon_x_pos_3 y = @stcf_society_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_biology_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_military_theory"
+			quadTextureSprite = "GFX_stcf_military_theory"
+			position = { x = @stcf_tech_icon_x_pos_4 y = @stcf_society_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_military_theory_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_archaeostudies"
+			quadTextureSprite = "GFX_stcf_archaeostudies"
+			position = { x = @stcf_tech_icon_x_pos_5 y = @stcf_society_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_archaeostudies_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_psionics"
+			quadTextureSprite = "GFX_stcf_psionics"
+			position = { x = @stcf_tech_icon_x_pos_6 y = @stcf_society_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_psionics_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+
+		# engineering
+		effectbuttonType = {
+			name = "stcf_engineering_none"
+			quadTextureSprite = "GFX_stcf_engineering"
+			scale = 1.7
+			position = { x = @stcf_none_tech_icon_x_pos y = @stcf_engineering_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_engineering_none_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_materials"
+			quadTextureSprite = "GFX_stcf_materials"
+			position = { x = @stcf_tech_icon_x_pos_1 y = @stcf_engineering_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_materials_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_propulsion"
+			quadTextureSprite = "GFX_stcf_propulsion"
+			position = { x = @stcf_tech_icon_x_pos_2 y = @stcf_engineering_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_propulsion_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+		effectbuttonType = {
+			name = "stcf_voidcraft"
+			quadTextureSprite = "GFX_stcf_voidcraft"
+			position = { x = @stcf_tech_icon_x_pos_3 y = @stcf_engineering_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_voidcraft_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+
+		effectbuttonType = {
+			name = "stcf_industry"
+			quadTextureSprite = "GFX_stcf_industry"
+			position = { x = @stcf_tech_icon_x_pos_4 y = @stcf_engineering_tech_icon_y_pos }
+			size = { x = 29 y = 29 }
+			effect = stcf_industry_btn_effect
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+
 		### ALL OF THIS IS HIDDEN OR DISPLACED ! ###
+
+		buttonType = { name = "tts_button" position = { x = -1180 y = -1112 } spriteType = "GFX_fleetview_focus" } # hidden
+		buttonType = { name = "empire_flag" position = { x = -1180 y = -1112 } spriteType = "GFX_fleetview_focus" } # hidden
 
 		buttonType = { name = "focus_button" position = { x = -1180 y = -1112 } spriteType = "GFX_fleetview_focus" } # hidden
 		instantTextBoxType = { name = "heading" font = "malgun_goth_24" position = { x = -1120 y = -115 } } # hidden
@@ -121,7 +220,7 @@ guiTypes = {
 		instantTextBoxType = { name = "empire_government_type" font = "cg_16b" } # hidden
 		instantTextBoxType = { name = "empire_personality_type" font = "cg_16b" } # hidden
 		overlappingElementsBoxType = { name = "empire_ethics_icons" position = { x = -1145 y = -11138 } } # hidden
-		iconType = { name = "empire_flag" spriteType = "GFX_empire_flag_128" position = { x = -1125 y = -11235 } } # hidden
+		# iconType = { name = "empire_flag" spriteType = "GFX_empire_flag_128" position = { x = -1125 y = -11235 } } # hidden
 		containerWindowType = {
 			name = "leader_details"
 			position = { x = -1125 y = -1175 }

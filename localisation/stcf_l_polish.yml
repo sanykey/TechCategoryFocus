@@ -1,6 +1,5 @@
 ﻿l_polish:
  # engineering:
- stcf_engineering_select:0 "Select a focus in engineering technologies"
  stcf_engineering_none:0 "Don't focus in engineering technologies"
  stcf_materials_focus_modifier:0 "Focus on materials technologies"
  stcf_propulsion_focus_modifier:0 "Focus on propulsion technologies"
@@ -8,14 +7,12 @@
  stcf_industry_focus_modifier:0 "Focus on industry technologies"
 
  # phisics:
- stcf_physics_select:0 "Select a focus in physics technologies"
  stcf_physics_none:0 "Don't focus in physics technologies"
  stcf_field_manipulation_focus_modifier:0 "Focus on field manipulation technologies"
  stcf_particles_focus_modifier:0 "Focus on particles technologies"
  stcf_computing_focus_modifier:0 "Focus on computing technologies"
 
  # society:
- stcf_society_select:0 "Select a focus in society technologies"
  stcf_society_none:0 "Don't focus in society technologies"
  stcf_new_worlds_focus_modifier:0 "Focus on new worlds technologies"
  stcf_statecraft_focus_modifier:0 "Focus on statecraft technologies"
@@ -25,4 +22,5 @@
  stcf_psionics_focus_modifier:0 "Focus on psionics technologies"
 
  # other
+ stcf_btn_open_focus:0 "Select a technology focus"
  stcf_empty_text:0 ""

@@ -1,6 +1,5 @@
 ﻿l_russian:
  # engineering:
- stcf_engineering_select:0 "Выбор специализации в области инженерных технологий"
  stcf_engineering_none:0 "Без специализации в области инженерных технологий"
  stcf_materials_focus_modifier:0 "Фокус на технологиях материалов"
  stcf_propulsion_focus_modifier:0 "Фокус на технологиях реактивной тяги"
@@ -8,14 +7,12 @@
  stcf_industry_focus_modifier:0 "Фокус на технологиях промышленности"
 
  # phisics:
- stcf_physics_select:0 "Выбор специализации в области физических технологий"
  stcf_physics_none:0 "Без специализации в области физических технологий"
  stcf_field_manipulation_focus_modifier:0 "Фокус на технологиях управления полями"
  stcf_particles_focus_modifier:0 "Фокус на технологиях частиц"
  stcf_computing_focus_modifier:0 "Фокус на технологиях вычислительной техники"
 
  # society:
- stcf_society_select:0 "Выбор специализации в области социальных технологий"
  stcf_society_none:0 "Без специализации в области социальных технологий"
  stcf_new_worlds_focus_modifier:0 "Фокус на технологиях новых миров"
  stcf_statecraft_focus_modifier:0 "Фокус на технологиях искусства управления"
@@ -25,4 +22,5 @@
  stcf_psionics_focus_modifier:0 "Фокус на псионических технологиях"
 
  # other
+ stcf_btn_open_focus:0 "Выбор специализации в технологиях"
  stcf_empty_text:0 ""
